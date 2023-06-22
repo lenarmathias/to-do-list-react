@@ -1,6 +1,42 @@
-# Getting Started with Create React App
+# "Lista zadań" 
+To-Do List
+
+---
+
+## Overview
+
+This repository contains a simple to-do list project written in the Polish language that helps you manage your tasks efficiently. This project is designed as a homework assignment for YouCode and provides a basic implementation of a to-do list using HTML, CSS, and Java
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+---
+
+## Usage Instruction
+
+Here's how to use my project:
+
+![Screenshot of To-Do List](./src/images/screenshots/mainScreenshot.jpg "Screenshot of To-Do List")
+
+This screenshot shows the initial view of my application, which is the first thing users will see when they open it.
+
+![GIF of To-Do List usage](./src//images/screenshots/tutorial.gif)
+
+GIF above represents the usage of my To-Do List. You can add a new task by typing it in the 'Co jest do zrobienia?' (What needs to be done?) field, and then add it to the list using the 'Dodaj zadanie' (Add task) button.
+You can change the status of a task to 'done' by clicking the green button. Alternatively, if you want to delete a specific task, you can click the red button.
+
+![GIF of To-Do List usage](./src/images/screenshots/hideButtonsTutorial.gif)
+
+You can check all tasks that have been completed simply by clicking the "Ukończ wszystkie" button, as shown in the GIF. Additionally, you can hide all completed tasks by clicking the "Ukryj ukończone" button.
+
+---
+
+## Tools 
+
+- **Visual Studio Code**: A popular text editor that was used to write and edit the application's code.
+- **Google Fonts**: A free online library of fonts that was used to enhance the application's typography and overall design.
+- **Git/GitHub**: A version control system and online repository that was used to track changes to the application's code.
+
+---
 
 ## Available Scripts
 
@@ -13,11 +49,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,32 +70,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any questions or feedback regarding this project, please feel free to contact me:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: lenarmathias.contact@gmail.com
+- GitHub: https://github.com/lenarmathias
