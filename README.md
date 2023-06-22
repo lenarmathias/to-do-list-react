@@ -11,6 +11,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ---
 
+## Demo
+
+You can find the live version of my To-Do List project on GitHub Pages here:
+
+https://lenarmathias.github.io/to-do-list-react/
+
+---
+
 ## Usage Instruction
 
 Here's how to use my project:
