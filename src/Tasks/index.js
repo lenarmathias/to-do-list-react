@@ -1,7 +1,7 @@
 import "./style.css";
 
 const Tasks = ({tasks, hiddenDoneTasks}) => (
-    <ul className="tasks__tasksList">
+    <ul className="tasks">
         {tasks.map(task => (
             <li
                 key={task.id}
@@ -10,13 +10,13 @@ const Tasks = ({tasks, hiddenDoneTasks}) => (
                     : ""}`
                 }
             >
-                <button className={`tasks__buttons`}>
+                <button className="tasks__button">
                     {task.done ? "✔" : ""}
                 </button>
                 <span className={`tasks__listItemText${task.done ? " tasks__textDone" : ""}`}>
                     {task.content}
                 </span>
-                <button className={`tasks__buttons tasks__buttons--delete`}>
+                <button className="tasks__button tasks__button--delete">
                     🗑️
                 </button>
             </li>

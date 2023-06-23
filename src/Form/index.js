@@ -1,10 +1,10 @@
 import "./style.css";
 
 const Form = () => (
-    <form className={`form`}>
-        <input className={`form__newTaskInput`} placeholder="Co jest do zrobienia?" autoFocus />
+    <form className="form">
+        <input className="form__newTaskInput" placeholder="Co jest do zrobienia?" autoFocus />
 
-        <button className={`form__addTaskButton`}>
+        <button className="form__addTaskButton">
             Dodaj zadanie
         </button>
     </form>

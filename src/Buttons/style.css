@@ -1,4 +1,4 @@
-.buttons__buttonsGrid {
+.buttons {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px;
@@ -12,20 +12,20 @@
     }
 }
 
-.buttons__buttons {
+.buttons__button {
     border: none;
     background: none;
     color: #008080;
 }
 
-.buttons__buttons:hover {
+.buttons__button:hover {
     color: #00a1a1;
 }
 
-.buttons__buttons:active {
+.buttons__button:active {
     color: #00b6b6;
 }
 
-.buttons__buttons:disabled {
+.buttons__button:disabled {
     color: #80808060;
 }
