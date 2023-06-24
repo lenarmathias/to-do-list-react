@@ -39,6 +39,21 @@ function App() {
     })));
   };
 
+  const addNewTask = (newTaskContent) => {
+    if (newTaskContent === "") {
+      return;
+  }
+  
+    setTasks(tasks => [
+      ...tasks,
+      {
+        content: newTaskContent,
+        done: false,
+        id: tasks.length === 0 ? 1 : tasks[tasks.length - 1].id + 1,
+      },
+    ])
+  };
+
   return (
     <>
       <Header
@@ -48,7 +63,9 @@ function App() {
       <Section
         title="Dodaj nowe zadanie"
         body={
-          <Form />
+          <Form
+            addNewTask={addNewTask}
+          />
         }
       />
 
