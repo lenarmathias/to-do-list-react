@@ -5,8 +5,6 @@ import Form from "./Form";
 import Buttons from "./Buttons";
 import Tasks from "./Tasks";
 
-
-
 function App() {
   const [hideDone, sethideDone] = useState(false);
   const [tasks, setTasks] = useState([
