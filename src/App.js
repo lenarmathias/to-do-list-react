@@ -7,7 +7,12 @@ import Tasks from "./Tasks";
 
 function App() {
   const [hideDone, sethideDone] = useState(false);
-  const [tasks, setTasks] = useState([]);
+
+  const savedTasks = JSON.parse(localStorage.getItem("tasks"));
+
+  const [tasks, setTasks] = useState(savedTasks);
+
+  localStorage.setItem("tasks", JSON.stringify(tasks));
 
   const toggleHideDone = () => {
     sethideDone(hideDone => !hideDone);
