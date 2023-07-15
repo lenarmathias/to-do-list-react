@@ -62,7 +62,6 @@ function App() {
       <Header
         title="Lista zadań"
       />
-
       <Section
         title="Dodaj nowe zadanie"
         body={
@@ -71,7 +70,6 @@ function App() {
           />
         }
       />
-
       <Section
         title="Lista zadań"
         extraHeaderContent={
