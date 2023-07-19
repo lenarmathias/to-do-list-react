@@ -1,17 +1,17 @@
-import "./style.css";
+import { SectionTitle, SeparateContainer, GridSeparateContainer } from "./styled";
 
 const Section = ({ title, body, extraHeaderContent }) => (
     <section>
-        <div className="section__separateContainer section__separateContainer--topGapAndGrid">
-            <h2 className="section__titleText">
+        <GridSeparateContainer>
+            <SectionTitle>
                 {title}
-            </h2>
+            </SectionTitle>
             {extraHeaderContent}
-        </div>
+        </GridSeparateContainer>
 
-        <div className="section__separateContainer">
+        <SeparateContainer>
             {body}
-        </div>
+        </SeparateContainer>
     </section>
 );
 
