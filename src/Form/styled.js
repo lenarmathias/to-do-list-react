@@ -1,16 +1,18 @@
-.form {
+import styled from "styled-components";
+
+export const FormField = styled.form`
     display: flex;
     flex-wrap: wrap;
-}
+`;
 
-.form__newTaskInput {
+export const TaskInput = styled.input`
     flex-grow: 1;
     height: 38.4px;
     border: 1px #e0e0e0 solid;
     padding: 10px;
-}
+`;
 
-.form__addTaskButton {
+export const AddTaskButton = styled.button`
     border: none;
     background-color: #008080;
     font-family: "Montserrat", sans-serif;
@@ -18,21 +20,19 @@
     padding: 10px;
     margin-left: 20px;
     transition: 1s;
-}
 
-.form__addTaskButton:hover {
-    background-color: #00a1a1;
-    transform: scale(1.1);
-}
+    &:hover {
+        background-color: #00a1a1;
+        transform: scale(1.1);
+    }
 
-.form__addTaskButton:active {
-    background-color: #00b6b6;
-}
+    &:active {
+        background-color: #00b6b6;
+    }
 
-@media (max-width: 767px) {
-    .form__addTaskButton {
+    @media (max-width: 767px) {
         flex-basis: 100%;
         margin-top: 10px;
         margin-left: 0;
     }
-}
+`;
