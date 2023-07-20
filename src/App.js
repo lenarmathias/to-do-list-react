@@ -4,26 +4,7 @@ import Section from "./Section";
 import Form from "./Form";
 import Buttons from "./Buttons";
 import Tasks from "./Tasks";
-import { createGlobalStyle } from "styled-components";
-
-const GlobalStyle = createGlobalStyle`
-  html {
-    box-sizing: border-box;
-  }
-
-  *, ::before, ::after {
-    box-sizing: inherit;
-  }
-
-  body {
-    margin: 0 auto;
-    width: 1000px;
-    max-width: 90%;
-    font-family: "Montserrat", sans-serif;
-    background-color: #f0f0f0;
-    word-break: break-word;
-  }
-`;
+import { GlobalStyle } from "./styled";
 
 function App() {
   const [hideDone, sethideDone] = useState(false);
