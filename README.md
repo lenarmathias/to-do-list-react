@@ -38,11 +38,16 @@ You can check all tasks that have been completed simply by clicking the "Ukończ
 
 ---
 
-## Tools 
+## Tools & Technologies
 
 - **Visual Studio Code**: A popular text editor that was used to write and edit the application's code.
 - **Google Fonts**: A free online library of fonts that was used to enhance the application's typography and overall design.
 - **Git/GitHub**: A version control system and online repository that was used to track changes to the application's code.
+- **HTML**: The application's user interface is built using HTML, which allows for the creation of structured, well-formatted content.
+- **CSS**: The application's styling is done using CSS, which allows for the creation of visually appealing and responsive designs.
+- **JavaScript**: The application's logic is written in JavaScript, which enables dynamic and interactive functionality, such as real-time updates and user input validation.
+- **React.js**: The application uses React.js, a popular JavaScript library for building interactive user interfaces with efficiency and code reusability.
+- **Styled Components**: Styled Components is a popular library for styling React components with a CSS-in-JS approach. It allows you to write CSS code directly within your JavaScript components, making it easier to manage and reuse styles in a component-based architecture.
 
 ---
 
