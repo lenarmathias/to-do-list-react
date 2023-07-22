@@ -23,16 +23,16 @@ https://lenarmathias.github.io/to-do-list-react/
 
 Here's how to use my project:
 
-![Screenshot of To-Do List](./src/images/screenshots/mainScreenshot.jpg "Screenshot of To-Do List")
+![Screenshot of To-Do List](/mainScreenshot.jpg "Screenshot of To-Do List")
 
 This screenshot shows the initial view of my application, which is the first thing users will see when they open it.
 
-![GIF of To-Do List usage](./src//images/screenshots/tutorial.gif)
+![GIF of To-Do List usage](/tutorial.gif)
 
 GIF above represents the usage of my To-Do List. You can add a new task by typing it in the 'Co jest do zrobienia?' (What needs to be done?) field, and then add it to the list using the 'Dodaj zadanie' (Add task) button.
 You can change the status of a task to 'done' by clicking the green button. Alternatively, if you want to delete a specific task, you can click the red button.
 
-![GIF of To-Do List usage](./src/images/screenshots/hideButtonsTutorial.gif)
+![GIF of To-Do List usage](/hideButtonsTutorial.gif)
 
 You can check all tasks that have been completed simply by clicking the "Ukończ wszystkie" button, as shown in the GIF. Additionally, you can hide all completed tasks by clicking the "Ukryj ukończone" button.
 
