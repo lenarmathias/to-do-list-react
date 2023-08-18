@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { useTasks } from "../../useTasks";
 import Header from "../../common/Header";
 import Section from "../../common/Section";
 import Form from "./Form";
@@ -8,19 +6,6 @@ import TaskList from "./TaskList";
 import { GlobalStyle } from "../../styled";
 
 function Tasks() {
-  const [hideDone, sethideDone] = useState(false);
-  const {
-    tasks,
-    removeTask,
-    toggleTaskDone,
-    setAllDone,
-    addNewTask,
-  } = useTasks();
-
-  const toggleHideDone = () => {
-    sethideDone(hideDone => !hideDone);
-  };
-
   return (
     <>
       <GlobalStyle />
@@ -29,28 +14,12 @@ function Tasks() {
       />
       <Section
         title="Dodaj nowe zadanie"
-        body={
-          <Form
-            addNewTask={addNewTask}
-          />
-        }
+        body={<Form />}
       />
       <Section
         title="Lista zadań"
-        extraHeaderContent={
-          <Buttons
-            tasks={tasks}
-            hideDone={hideDone}
-            toggleHideDone={toggleHideDone}
-            setAllDone={setAllDone}
-          />}
-        body={
-          <TaskList
-            tasks={tasks}
-            hideDone={hideDone}
-            removeTask={removeTask}
-            toggleTaskDone={toggleTaskDone}
-          />}
+        extraHeaderContent={<Buttons />}
+        body={<TaskList />}
       />
     </>
   );
