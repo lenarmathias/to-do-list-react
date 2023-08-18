@@ -5,7 +5,7 @@ To-Do List
 
 ## Overview
 
-This repository contains a simple to-do list project written in the Polish language that helps you manage your tasks efficiently. This project is designed as a homework assignment for YouCode and provides a basic implementation of a to-do list using HTML, CSS, and Java
+This repository contains a simple to-do list project written in the Polish language that helps you manage your tasks efficiently. This project is designed as a homework assignment for YouCode and provides a basic implementation of React.js functions.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -26,15 +26,9 @@ Here's how to use my project:
 ![Screenshot of To-Do List](/mainScreenshot.jpg "Screenshot of To-Do List")
 
 This screenshot shows the initial view of my application, which is the first thing users will see when they open it.
-
-![GIF of To-Do List usage](/tutorial.gif)
-
-GIF above represents the usage of my To-Do List. You can add a new task by typing it in the 'Co jest do zrobienia?' (What needs to be done?) field, and then add it to the list using the 'Dodaj zadanie' (Add task) button.
+You can add a new task by typing it in the 'Co jest do zrobienia?' (What needs to be done?) field, and then add it to the list using the 'Dodaj zadanie' (Add task) button.
 You can change the status of a task to 'done' by clicking the green button. Alternatively, if you want to delete a specific task, you can click the red button.
-
-![GIF of To-Do List usage](/hideButtonsTutorial.gif)
-
-You can check all tasks that have been completed simply by clicking the "Ukończ wszystkie" button, as shown in the GIF. Additionally, you can hide all completed tasks by clicking the "Ukryj ukończone" button.
+You can check all tasks that have been completed simply by clicking the "Ukończ wszystkie" button. Additionally, you can hide all completed tasks by clicking the "Ukryj ukończone" button.
 
 ---
 
@@ -47,7 +41,7 @@ You can check all tasks that have been completed simply by clicking the "Ukończ
 - **CSS**: The application's styling is done using CSS, which allows for the creation of visually appealing and responsive designs.
 - **JavaScript**: The application's logic is written in JavaScript, which enables dynamic and interactive functionality, such as real-time updates and user input validation.
 - **React.js**: The application uses React.js, a popular JavaScript library for building interactive user interfaces with efficiency and code reusability.
-- **Styled Components**: Styled Components is a popular library for styling React components with a CSS-in-JS approach. It allows you to write CSS code directly within your JavaScript components, making it easier to manage and reuse styles in a component-based architecture.
+- **Styled Components**: [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components) Styled Components is a popular library for styling React components with a CSS-in-JS approach. It allows you to write CSS code directly within your JavaScript components, making it easier to manage and reuse styles in a component-based architecture. 
 
 ---
 
