@@ -5,6 +5,7 @@ import { ButtonsContainer, ActionButton } from "./styled";
 const Buttons = () => {
     const { tasks, hideDone } = useSelector(selectTasks);
     const dispatch = useDispatch();
+    
     return (
         tasks.length > 0 && (
             <ButtonsContainer>
