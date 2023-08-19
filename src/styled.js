@@ -17,4 +17,12 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #f0f0f0;
     word-break: break-word;
   }
+
+  button {
+    cursor: pointer;
+  }
+
+  button:disabled {
+  cursor: not-allowed;
+}
 `;
