@@ -1,5 +1,6 @@
 import Header from "../../common/Header";
 import Section from "../../common/Section";
+import ExampleTasksButton from "./ExampleTasksButton";
 import Form from "./Form";
 import Buttons from "./Buttons";
 import TaskList from "./TaskList";
@@ -14,6 +15,7 @@ function Tasks() {
       />
       <Section
         title="Dodaj nowe zadanie"
+        extraHeaderContent={<ExampleTasksButton />}
         body={<Form />}
       />
       <Section
