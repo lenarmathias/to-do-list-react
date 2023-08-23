@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { exampleTasks } from "./exampleTasks";
 
 const tasksSlice = createSlice({
     name: "tasks",
@@ -29,11 +28,9 @@ const tasksSlice = createSlice({
                 task.done = true;
             });
         },
-        addExampleTasks: ({ tasks }) => {
-            tasks.length = 0;
-            exampleTasks.forEach(exampleTask => {
-                tasks.push(exampleTask);
-            });
+        fetchExampleTasks: () => { },
+        setTasks: (state, { payload: tasks }) => {
+            state.tasks = tasks;
         },
     },
 });
@@ -44,7 +41,8 @@ export const {
     toggleTaskDone,
     removeTask,
     setAllDone,
-    addExampleTasks
+    fetchExampleTasks,
+    setTasks,
 } = tasksSlice.actions;
 export const selectTasks = state => state.tasks;
 export default tasksSlice.reducer;

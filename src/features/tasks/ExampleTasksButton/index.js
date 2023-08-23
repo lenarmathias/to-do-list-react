@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { addExampleTasks } from "../tasksSlice";
+import { fetchExampleTasks } from "../tasksSlice";
 import { ActionButton } from "../styled";
 
 const ExampleTasksButton = () => {
@@ -8,7 +8,7 @@ const ExampleTasksButton = () => {
     return (
         <ActionButton
             title="Aktualne zadania zostaną usunięte"
-            onClick={() => dispatch(addExampleTasks())}
+            onClick={() => dispatch(fetchExampleTasks())}
         >
             Pobierz przykładowe zadania
         </ActionButton>
