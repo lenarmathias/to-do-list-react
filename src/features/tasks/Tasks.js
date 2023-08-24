@@ -4,12 +4,10 @@ import ExampleTasksButton from "./ExampleTasksButton";
 import Form from "./Form";
 import Buttons from "./Buttons";
 import TaskList from "./TaskList";
-import { GlobalStyle } from "../../styled";
 
 function Tasks() {
   return (
     <>
-      <GlobalStyle />
       <Header
         title="Lista zadań"
       />

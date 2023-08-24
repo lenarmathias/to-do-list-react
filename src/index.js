@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Normalize } from 'styled-normalize';
+import { GlobalStyle } from './styled';
 import store from './store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,6 +12,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <Normalize />
+      <GlobalStyle />
       <App />
     </Provider>
   </React.StrictMode>
