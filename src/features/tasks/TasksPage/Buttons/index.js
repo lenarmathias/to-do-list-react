@@ -11,7 +11,10 @@ const Buttons = () => {
     return (
         !tasksEmpty && (
             <ButtonsContainer>
-                <ActionButton onClick={() => dispatch(toggleHideDone())}>
+                <ActionButton
+                    onClick={() => dispatch(toggleHideDone())}
+                    mobileMarginTop
+                >
                     {hideDone ? "Pokaż" : "Ukryj"} ukończone
                 </ActionButton>
                 <ActionButton

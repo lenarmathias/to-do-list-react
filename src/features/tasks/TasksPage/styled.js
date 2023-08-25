@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const ButtonsContainer = styled.div`
     display: grid;
@@ -6,7 +6,6 @@ export const ButtonsContainer = styled.div`
     grid-gap: 20px;
 
     @media (max-width: 767px) {
-        margin-top: 10px;
         grid-template-columns: none;
         grid-template-rows: repeat(2, 1fr);
     }
@@ -28,4 +27,10 @@ export const ActionButton = styled.button`
     &:disabled {
         color: #80808060;
     }
+
+    ${({ mobileMarginTop }) => mobileMarginTop && css`
+        @media (max-width: 767px) {
+            margin-top: 20px;
+        }
+    `}
 `;

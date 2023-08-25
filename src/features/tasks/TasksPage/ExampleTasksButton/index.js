@@ -11,6 +11,7 @@ const ExampleTasksButton = () => {
             title="Aktualne zadania zostaną usunięte"
             onClick={() => dispatch(fetchExampleTasks())}
             disabled={exampleTasksLoading}
+            mobileMarginTop
         >
             {
                 exampleTasksLoading
