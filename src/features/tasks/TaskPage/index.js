@@ -14,8 +14,21 @@ const TaskPage = () => {
                 title="Szczegóły zadania"
             />
             <Section
-                title={id}
-                body={<>nanana</>}
+                title={
+                    task
+                        ? task.content
+                        : "Nie znaleziono zadania"
+                }
+                body={
+                    <>
+                        {task && (
+                            <>
+                                <strong>Ukończono:</strong>{" "}
+                                {task.done ? "Tak" : "Nie"}
+                            </>
+                        )}
+                    </>
+                }
             />
         </>
     )
