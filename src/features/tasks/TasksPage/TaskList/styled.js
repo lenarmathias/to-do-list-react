@@ -44,7 +44,7 @@ export const RemoveButton = styled(TaskButton)`
     }
 `;
 
-export const DoneText = styled.span`
+export const Content = styled.span`
     padding: 5px 10px;
 
     ${({ done }) => done && css`
