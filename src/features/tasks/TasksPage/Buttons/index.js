@@ -5,11 +5,11 @@ import { ButtonsContainer, ActionButton } from "../styled";
 const Buttons = () => {
     const tasks = useSelector(selectTasks);
     const hideDone = useSelector(selectHideDone);
-    const tasksLenght = useSelector(selectAreTasksEmpty);
+    const tasksEmpty = useSelector(selectAreTasksEmpty);
     const dispatch = useDispatch();
 
     return (
-        tasksLenght > 0 && (
+        !tasksEmpty && (
             <ButtonsContainer>
                 <ActionButton onClick={() => dispatch(toggleHideDone())}>
                     {hideDone ? "Pokaż" : "Ukryj"} ukończone
