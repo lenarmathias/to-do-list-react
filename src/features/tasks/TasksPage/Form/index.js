@@ -6,17 +6,17 @@ import Input from "../Input/styled"
 import { addTask } from "../../tasksSlice";
 
 const Form = () => {
+    const dispatch = useDispatch();
+
     const [newTaskContent, setNewTaskContent] = useState("");
     const inputRef = useRef(null);
-
-    const dispatch = useDispatch();
 
     const onFormSubmit = (event) => {
         event.preventDefault();
         dispatch(addTask({
             content: newTaskContent.trim(),
             done: false,
-            id: nanoid(),            
+            id: nanoid(),
         }));
         setNewTaskContent("");
         focusInput();
