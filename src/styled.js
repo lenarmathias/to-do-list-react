@@ -18,6 +18,10 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Montserrat", sans-serif;
     background-color: #f0f0f0;
     word-break: break-word;
+
+    @media (max-width: 767px) {
+      margin-bottom: 20px;
+    }
   }
 
   button {
