@@ -26,9 +26,14 @@ Here's how to use my project:
 ![Screenshot of To-Do List](/mainScreenshot.jpg "Screenshot of To-Do List")
 
 This screenshot shows the initial view of my application, which is the first thing users will see when they open it.
-You can add a new task by typing it in the 'Co jest do zrobienia?' (What needs to be done?) field, and then add it to the list using the 'Dodaj zadanie' (Add task) button.
-You can change the status of a task to 'done' by clicking the green button. Alternatively, if you want to delete a specific task, you can click the red button.
+You can add a new task by typing it in the "Co jest do zrobienia?" (What needs to be done?) field, and then add it to the list using the "Dodaj zadanie" (Add task) button. Above the "Dodaj zadanie" button, there is a "Pobierz przykładowe zadania" (Get example tasks) option, which will add sample tasks to the list.
+
+You can change the status of a task to "done" by clicking the green button. Alternatively, if you want to delete a specific task, you can click the red button.
 You can check all tasks that have been completed simply by clicking the "Ukończ wszystkie" button. Additionally, you can hide all completed tasks by clicking the "Ukryj ukończone" button.
+
+You can search for tasks using the "Wyszukiwarka" (Search) feature by entering keywords into the "Filtruj zadania" input.
+Each task has its own dedicated page, which you can access by clicking on the task in the tasks list.
+In the top bar, you can switch between the "Tasks List" and "About the Author" pages.
 
 ---
 
@@ -47,6 +52,7 @@ You can check all tasks that have been completed simply by clicking the "Ukończ
 - **Redux Toolkit**: [![library: Redux Toolkit](https://img.shields.io/badge/library-%F0%9F%8C%8F%20Redux%20Toolkit-purple.svg)](https://redux-toolkit.js.org/) Redux Toolkit is an opinionated set of utilities for Redux that simplifies common Redux tasks and helps you write more efficient and maintainable Redux code. It includes features like a standardized way to define slices of state and middleware setup.
 - **redux-saga**: [![library: redux-saga](https://img.shields.io/badge/library-%F0%9F%8E%AF%20redux--saga-blue.svg)](https://github.com/redux-saga/redux-saga) Redux Saga is a middleware library for managing asynchronous actions in Redux. It simplifies handling side effects like API calls using generators to create structured and testable asynchronous flows.
 - **react-router-dom**: [![library: react-router-dom](https://img.shields.io/badge/library-%F0%9F%8C%8E%20react--router--dom-green.svg)](https://github.com/ReactTraining/react-router) React Router Dom provides declarative routing for React apps. It enables easy creation of multi-page apps with client-side navigation, dynamically updating content based on the URL.
+- **react-icons**: [![library: react-icons](https://img.shields.io/badge/library-%E2%9D%A4%EF%B8%8F%20react--icons-%239f4686)](https://react-icons.github.io/react-icons/) React Icons is a popular library that provides a collection of customizable icons for React applications. It offers a wide range of icons from various icon packs, allowing you to easily incorporate visually appealing icons into your UI.
 
 
 ---
