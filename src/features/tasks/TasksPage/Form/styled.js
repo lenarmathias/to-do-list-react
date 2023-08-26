@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const FormField = styled.form`
     display: flex;
@@ -27,5 +27,20 @@ export const AddTaskButton = styled.button`
         flex-basis: 100%;
         margin-top: 10px;
         margin-left: 0;
+        transition: none;
+
+        &:hover {
+            background-color: #008080;
+            transform: none;
+        }
+
+        &:active {
+            background-color: #008080;
+            animation: ${keyframes`
+                100% {
+                    transform: scale(1.05);
+                }
+            `} 0.2s ease-in-out;
+        }
     }
 `;

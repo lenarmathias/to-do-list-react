@@ -24,9 +24,13 @@ export const GlobalStyle = createGlobalStyle`
     cursor: pointer;
   }
 
+  a, button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
   button:disabled {
     cursor: not-allowed;
-  } 
+  }
 `;
 
 export const NavigationBar = styled.nav`

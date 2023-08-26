@@ -28,6 +28,20 @@ export const ActionButton = styled.button`
         color: #80808060;
     }
 
+    @media (max-width: 767px) {
+        &:hover {
+            color: #008080;
+        }
+
+        &:active {
+            color: #008080;
+        }
+
+        &:disabled {
+            color: #80808060;
+        }
+    }
+
     ${({ mobileMarginTop }) => mobileMarginTop && css`
         @media (max-width: 767px) {
             margin-top: 20px;

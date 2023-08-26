@@ -37,6 +37,12 @@ export const TaskButton = styled.button`
     &:hover {
         background-color: #00be00;
     }
+
+    @media (max-width: 767px) {
+        &:hover {
+            background-color: #008000;
+        }
+    }
 `;
 
 export const RemoveButton = styled(TaskButton)`
@@ -44,6 +50,12 @@ export const RemoveButton = styled(TaskButton)`
 
     &:hover {
         background-color: #ff8a8a;
+    }
+
+    @media (max-width: 767px) {
+        &:hover {
+            background-color: #ff0000;
+        }
     }
 `;
 
