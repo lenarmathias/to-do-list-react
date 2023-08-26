@@ -31,6 +31,8 @@ export const TaskButton = styled.button`
     border: none;
     background-color: #008000;
     transition: 1s;
+    display: grid;
+    align-content: center;
 
     &:hover {
         background-color: #00be00;
