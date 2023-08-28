@@ -15,12 +15,12 @@ export const AddTaskButton = styled.button`
     transition: 1s;
 
     &:hover {
-        background-color: #00a1a1;
+        filter: brightness(1.2);
         transform: scale(1.1);
     }
 
     &:active {
-        background-color: #00b6b6;
+        filter: brightness(1.5);
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
@@ -30,12 +30,12 @@ export const AddTaskButton = styled.button`
         transition: none;
 
         &:hover {
-            background-color: ${({ theme }) => theme.colors.primary};
+            filter: none;
             transform: none;
         }
 
         &:active {
-            background-color: ${({ theme }) => theme.colors.primary};
+            filter: none;
             animation: ${keyframes`
                 100% {
                     transform: scale(1.05);

@@ -17,11 +17,11 @@ export const ActionButton = styled.button`
     color: ${({ theme }) => theme.colors.primary};
 
     &:hover {
-        color: #00a1a1;
+        filter: brightness(1.5);
     }
 
     &:active {
-        color: #00b6b6;
+        filter: brightness(1.75);
     }
 
     &:disabled {
@@ -30,11 +30,11 @@ export const ActionButton = styled.button`
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         &:hover {
-            color: ${({ theme }) => theme.colors.primary};
+            filter: none;
         }
 
         &:active {
-            color: ${({ theme }) => theme.colors.primary};
+            filter: none;
         }
 
         &:disabled {

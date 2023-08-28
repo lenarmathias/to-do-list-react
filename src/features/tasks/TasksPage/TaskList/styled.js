@@ -35,12 +35,12 @@ export const TaskButton = styled.button`
     align-content: center;
 
     &:hover {
-        background-color: #00be00;
+        filter: brightness(1.5);
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         &:hover {
-            background-color: #008000;
+            filter: none;
         }
     }
 `;
@@ -49,12 +49,12 @@ export const RemoveButton = styled(TaskButton)`
     background-color: #ff0000;
 
     &:hover {
-        background-color: #ff8a8a;
+        filter: brightness(7);
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         &:hover {
-            background-color: #ff0000;
+            filter: none;
         }
     }
 `;
