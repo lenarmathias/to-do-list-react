@@ -5,7 +5,7 @@ export const ButtonsContainer = styled.div`
     grid-template-columns: auto auto;
     grid-gap: 20px;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         grid-template-columns: none;
         grid-template-rows: repeat(2, 1fr);
     }
@@ -14,7 +14,7 @@ export const ButtonsContainer = styled.div`
 export const ActionButton = styled.button`
     border: none;
     background: none;
-    color: #008080;
+    color: ${({ theme }) => theme.colors.primary};
 
     &:hover {
         color: #00a1a1;
@@ -28,13 +28,13 @@ export const ActionButton = styled.button`
         color: #80808060;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         &:hover {
-            color: #008080;
+            color: ${({ theme }) => theme.colors.primary};
         }
 
         &:active {
-            color: #008080;
+            color: ${({ theme }) => theme.colors.primary};
         }
 
         &:disabled {
@@ -43,7 +43,7 @@ export const ActionButton = styled.button`
     }
 
     ${({ mobileMarginTop }) => mobileMarginTop && css`
-        @media (max-width: 767px) {
+        @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
             margin-top: 20px;
         }
     `}

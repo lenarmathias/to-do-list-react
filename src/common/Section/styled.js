@@ -18,7 +18,7 @@ export const GridSeparateContainer = styled(SeparateContainer)`
     display: grid;
     grid-template-columns: 1fr auto ;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         grid-template-columns: none;
         grid-template-rows: repeat(2 1fr);
     }

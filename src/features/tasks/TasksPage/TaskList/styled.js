@@ -52,7 +52,7 @@ export const RemoveButton = styled(TaskButton)`
         background-color: #ff8a8a;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         &:hover {
             background-color: #ff0000;
         }
@@ -61,7 +61,7 @@ export const RemoveButton = styled(TaskButton)`
 
 export const ContentLink = styled(Link)`
     padding: 5px 10px;
-    color: #008080;
+    color: ${({ theme }) => theme.colors.primary};
     text-decoration: none;
 `;
 

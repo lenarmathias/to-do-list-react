@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #f0f0f0;
     word-break: break-word;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
       margin-bottom: 20px;
     }
   }
@@ -38,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const NavigationBar = styled.nav`
-  background: linear-gradient(#00a1a1, #008080);
+  background-color: ${({ theme }) => theme.colors.primary};
   width: 100vw;
   height: 50px;
   position: fixed;
