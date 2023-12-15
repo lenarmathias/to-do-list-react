@@ -10,7 +10,7 @@ export const SeparateContainer = styled.div`
     padding: 20px;
     border: 1px #f0f0f0 solid;
     background-color: #ffffff;
-    box-shadow: 0px 0px 5px 0px #00000010;
+    box-shadow: 0 0 5px 0 #00000010;
 `;
 
 export const GridSeparateContainer = styled(SeparateContainer)`

@@ -11,7 +11,7 @@ function* fetchExampleTaskHandler() {
     } catch (error) {
         yield call(alert, "Coś poszło nie tak!");
     }
-};
+}
 
 function* saveTasksInLocalStorageHandler() {
     const tasks = yield select(selectTasks);
